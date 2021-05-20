@@ -1,0 +1,23 @@
+{
+  "name": "insertionsort",
+  "version": "1.0.0",
+  "description": "## Collaboratos: Clement Buchanan & Kale Lesko",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ClementBuchanan/InsertionSort.git"
+  },
+  "author": "Clement Buchanan and Kale Lesko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ClementBuchanan/InsertionSort/issues"
+  },
+  "homepage": "https://github.com/ClementBuchanan/InsertionSort#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "jest": "^26.6.3"
+  }
+}

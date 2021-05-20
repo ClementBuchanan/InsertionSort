@@ -1,15 +1,15 @@
-
-
-const insertionSort = array => {
-  for (let i = 1; i < array.length; i++); {
-    for (let j = 0; j < i; j++) {
-      if (array[i] < array[j]) {
-        const temp = array.splice(i, 1);
-        array.splice(j, 0, temp[0]);
-      }
+'use strict';
+const inserstionSort = (inputArr) => {
+  for (let i = 1; i < inputArr.length; i++) {
+    let current = inputArr[i];
+    let j = i - 1;
+    while ((j > -1) && (current < inputArr[j])) {
+      inputArr[j + 1] = inputArr[j];
+      j--;
     }
+    inputArr[j + 1] = current;
   }
-  return array;
-}
+  return inputArr;
+};
+module.exports = inserstionSort;
 
-inserttionSort([8, 4, 23, 42, 16, 15]);
