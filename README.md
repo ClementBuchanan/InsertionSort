@@ -16,4 +16,14 @@ Time: 0(n^2)
 Space: 0(n)
 
 ## Solution
-Link to the code goes here.
+[Link to the code](https://github.com/ClementBuchanan/InsertionSort/blob/main/index.js)
+
+## blog article
+
+1. To create an insertion sort you must first loop through the array minus the base value
+2. Next we loop through the entire array for comarison
+3. Then do a console.log('outer', array[1])
+4. Then check if the valus is less than the current index then console.log ('inner', array[j]).
+5. If so then we store the it in a temp variable removing it from the array.
+6. Again we console.log('temp', temp)
+7. Next we insert the VALUE into the current index after which we console.log('post-sort', array) and then we finally return the sorted array.
